@@ -110,6 +110,9 @@ html, body{
 div.container{
     width: 100%;
 }
+.white-background{
+    background-color: white;
+}
 .green-background{
     background-image: url('../img/General/Fondos/2.png');
 }
@@ -306,23 +309,28 @@ div.calendar{
 div.calendar > img:nth-child(1){
     width: 120px;
 }
-div.calendar div.calendar-content{
-    border: 2px solid #439b68;
-    border-radius: 10px;
-    margin: 2% 5% 5% 5%;
+div.games div.game{
+    width: 90%;
+    margin: 20px auto;
 }
-div.calendar-images img{
-    width: 25%;
-    padding: 10px;
+div.games div.game img{
+    width: 100%
 }
-div.calendar-images img:nth-child(2){
-    position: absolute;
-    right: 5%;
+div.games div.game p{
+    font-family: sixInchOffice;
+    text-align: center;
+    color: white;
+    margin: 0;
+    font-size: 1em;
 }
-div.calendar-detail{
-    height: 200px;
+div.final{
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 8%;
 }
-
+div.final img{
+    width: 100%;
+}
 /*Ceremony*/
 div.ceremony{
     position: relative;
@@ -337,7 +345,11 @@ div.three-winners{
      margin-left: 5%;
 }
 div.three-winners h2{
-    font-size: .75rem;
+    font-size: .7rem;
+}
+div.three-winners h2:nth-child(2){
+    padding: 25% 0;
+    margin-bottom: 0;
 }
 div.three-winners img{
     width: 40%;
@@ -483,7 +495,8 @@ div.info-header h1{
 
 div.info-content1, 
 div.info-content2,
-div.info-content3{
+div.info-content3,
+div.info-content4{
     position: relative;
 }
 div.info-content1 img:nth-child(1){
@@ -525,12 +538,29 @@ div.info-content3 > img{
     width: 50%;
     margin-top: -8%;
     position: relative;
+    margin-bottom: -4%;
+    z-index: 1;
 }
 div.info-content3 div.logos{
     position: absolute;
     bottom: 0;
     width: 100%;
     padding: 2%;
+}
+div.info-content4 > img{
+    width: 50%;
+    margin-top: -5%;
+    margin-left: 50%;
+    margin-bottom: -5%;
+    position: relative;
+    z-index: 1;
+}
+div.info-content4 div.info-text{
+    width: 50%;
+    padding: 1% 1% 2% 10%;
+    font-size: 11px;
+    position: absolute;
+    top: 0;
 }
 div.info-content3 div.logos img{
     width: 25%;
@@ -747,10 +777,22 @@ div.confirmation-footer img:nth-child(2){
     div.calendar > img:nth-child(1){
         width: 220px;
     }
-
+    div.games div.game p {
+        font-size: 2em;
+    }
+    div.games div.game{
+        width: 49%;
+        display: inline-block;
+        margin: 0;
+        padding: 25px;
+    }
+    div.final{
+        width: 70%;
+        margin-left: 30px;
+    }
     /*Ceremony*/
     div.three-winners h2{
-        font-size: 1.8rem;
+        font-size: 1.6rem;
     }
 
     /*Menu*/
@@ -820,10 +862,13 @@ div.confirmation-footer img:nth-child(2){
     div.calendar > img:nth-child(1){
         width: 260px;
     }
+    div.games div.game p {
+        font-size: 2.4em;
+    }
 
     /*Ceremony*/
     div.three-winners h2{
-        font-size: 2.4rem;
+        font-size: 2.1em;
     }
 
     /*Menu*/
@@ -881,7 +926,7 @@ div.confirmation-footer img:nth-child(2){
 
     /*Ceremony*/
     div.three-winners h2{
-        font-size: 3.1rem;
+        font-size: 3em;
     }
 
     /*Menu*/

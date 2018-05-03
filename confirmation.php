@@ -67,7 +67,7 @@
                     <img src="img/General/Logos/Logo_Coca.png" alt="Logo Coca">
                 </div>
             </div>
-            <p class="cr">Copa Subway® y Premiación Subway® es una marca registrada de Subway IP Inc. @2018 Subway IP Inc.</p>
+            <p class="cr sixInch">Imágenes con fines ilustrativos. Copa Subway® y Premiación Subway® es una marca registrada de Subway IP Inc. @2018 Subway IP Inc.</p>
         </div>
         
         <script src="js/vendor/modernizr-3.5.0.min.js"></script>

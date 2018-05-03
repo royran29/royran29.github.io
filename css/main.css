@@ -111,7 +111,7 @@ div.container{
     width: 100%;
 }
 .white-background{
-    background-color: white;
+    background-image: url('../img/General/Fondos/5.png');
 }
 .green-background{
     background-image: url('../img/General/Fondos/2.png');
@@ -348,7 +348,7 @@ div.three-winners h2{
     font-size: .7rem;
 }
 div.three-winners h2:nth-child(2){
-    padding: 25% 0;
+    padding: 20% 0;
     margin-bottom: 0;
 }
 div.three-winners img{
@@ -416,6 +416,13 @@ div.form-title{
 div.form-title img{
     width: 60%;
     margin-left: -2%
+}
+div.form-title p{
+    width: 90%;
+    margin: 0 auto;
+}
+div.form-title p:nth-child(2){
+    margin-top: 5%
 }
 div.form-group{
     margin: 20px auto;
@@ -527,7 +534,8 @@ div.info-content2 img{
     position: relative;
     z-index: 1;
 }
-div.info-content2 div.info-text{
+div.info-content2 div.info-text,
+div.info-content4 div.info-text{
     width: 50%;
     padding: 1% 1% 2% 10%;
     font-size: 11px;
@@ -551,23 +559,23 @@ div.info-content4 > img{
     width: 50%;
     margin-top: -5%;
     margin-left: 50%;
-    margin-bottom: -5%;
     position: relative;
     z-index: 1;
 }
 div.info-content4 div.info-text{
-    width: 50%;
-    padding: 1% 1% 2% 10%;
-    font-size: 11px;
-    position: absolute;
-    top: 0;
+    font-size: 1em;
+    padding-top: 5%;
 }
-div.info-content3 div.logos img{
+div.info-content4 div.info-text > a > img{
+    width: 100%;
+}
+div.info-content4 div.logos{
+    margin: -10% 0 10% 10%;
+}
+div.info-content4 div.logos img{
     width: 25%;
 }
-div.info-content3 div.logos img:nth-child(2){
-    float: right;
-}
+
 /*Menu Detail*/
 div.menu-detail h2{
     margin: 0;
@@ -589,6 +597,7 @@ div.end-menu-detail{
 div.menu-detail div.menu-item img{
     width: 40%;
     margin: 3%;
+    display: inline-block;
 }
 div.end-menu-detail{
     font-size: .6em;
@@ -597,6 +606,12 @@ div.end-menu-detail img{
     width: 25%;
     float: right;
     margin-top: -2%;
+}
+div.menu-item-text{
+    display: inline-block;
+}
+div.menu-item-text p{
+    margin: 0;
 }
 
 /*Confirmation Page*/
@@ -716,6 +731,11 @@ div.confirmation-footer img:nth-child(2){
         width: 70%;
         margin: 0 auto;
     }
+     
+    div.form-title p{
+        width: 62%;
+        margin: 0 auto;
+    }
     div.form-header div.logos > img{
         width: 140px;
     }
@@ -778,7 +798,7 @@ div.confirmation-footer img:nth-child(2){
         width: 220px;
     }
     div.games div.game p {
-        font-size: 2em;
+        font-size: 1.2em;
     }
     div.games div.game{
         width: 49%;
@@ -816,6 +836,9 @@ div.confirmation-footer img:nth-child(2){
     div.info-content2 div.info-text,
     div.info-content3 div.info-text{
         font-size: 26px;
+    }
+    div.info-content4 div.info-text{
+        font-size: 2em;
     }
 
     /*Menu Detail*/
@@ -863,7 +886,7 @@ div.confirmation-footer img:nth-child(2){
         width: 260px;
     }
     div.games div.game p {
-        font-size: 2.4em;
+        font-size: 2em;
     }
 
     /*Ceremony*/
@@ -880,12 +903,16 @@ div.confirmation-footer img:nth-child(2){
     div.form{
         width: 60%;
     }
+    div.form-title p{
+        width: 54%;
+    }
     div.form-header div.logos > img{
         width: 215px;
     }
     div.form-group label, 
     div.form-group input, 
-    div.form-group select{
+    div.form-group select,
+    div.form-title p{
         font-size: 1.4em;
     }
     div.form-group input, 
@@ -901,6 +928,9 @@ div.confirmation-footer img:nth-child(2){
     div.info-content2 div.info-text,
     div.info-content3 div.info-text{
         font-size: 34px;
+    }
+     div.info-content4 div.info-text{
+        font-size: 2.7em;
     }
 
     /*Menu Detail*/
@@ -946,7 +976,9 @@ div.confirmation-footer img:nth-child(2){
     div.form{
         width: 50%;
     }
-
+    div.form-title p{
+        width: 45%;
+    }
     /*Info*/
     div.info-header h1 {
         font-size: 7em;
@@ -956,7 +988,9 @@ div.confirmation-footer img:nth-child(2){
     div.info-content3 div.info-text{
         font-size: 46px;
     }
-
+     div.info-content4 div.info-text{
+        font-size: 3.6em;
+    }              
     /*Menu Detail*/
     div.menu-detail h2 {
         font-size: 6.8em;

@@ -1,3 +1,9 @@
+$(function(){
+  $('label span.menu, label ul').on('click', function(){
+    $('label ul').toggleClass('no-display');
+  });
+});
+
 (function() {
   "use strict";
   window.addEventListener("load", function() {
@@ -17,8 +23,3 @@
     }, false);
 }());
 
-$(function(){
-  $('label span.menu').on('click', function(){
-    $('label ul').toggleClass('no-display');
-  });
-});

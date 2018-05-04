@@ -607,11 +607,15 @@ div.end-menu-detail img{
     float: right;
     margin-top: -2%;
 }
+div.menu-item{
+    margin-top: 7%;
+}
 div.menu-item-text{
     display: inline-block;
 }
 div.menu-item-text p{
     margin: 0;
+    margin-left: 20px;
 }
 
 /*Confirmation Page*/
@@ -850,6 +854,11 @@ div.confirmation-footer img:nth-child(2){
         font-size: 1.2em;
     }
 
+    div.menu-item-text p{
+       font-size: 2em;
+        margin-left: 30px;
+    }
+    
     /*Confirmation Page*/
     div.header-text{
         font-size: 2em;
@@ -946,6 +955,10 @@ div.confirmation-footer img:nth-child(2){
     div.header-text{
         font-size: 3em;
     }
+    div.menu-item-text p{
+        font-size: 2.2em;
+         margin-left: 40px;
+     }
 }
 
 @media only screen and (min-width:1200px){
@@ -998,7 +1011,10 @@ div.confirmation-footer img:nth-child(2){
     div.menu-detail div.menu-list {
         width: 60%;
     }
-
+    div.menu-item-text p{
+        font-size: 2.5em;
+         margin-left: 50px;
+     }
 
 }
 

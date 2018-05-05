@@ -274,7 +274,7 @@ div.home div.logos{
 }
 
 div.home div.logos > img{
-    width: 100px;
+    width: 37px;
     display: block;
     position: relative;
     left: -50%;
@@ -563,14 +563,13 @@ div.info-content4 > img{
     z-index: 1;
 }
 div.info-content4 div.info-text{
-    font-size: 1em;
-    padding-top: 5%;
+    padding-top: 15%;
 }
 div.info-content4 div.info-text > a > img{
     width: 100%;
 }
 div.info-content4 div.logos{
-    margin: -10% 0 10% 10%;
+    margin: -7% 0 10% 10%;
 }
 div.info-content4 div.logos img{
     width: 25%;
@@ -672,8 +671,7 @@ div.confirmation-footer img:nth-child(2){
 
     /*Home*/
     div.home div.logos > img{
-        width: 145px;
-        margin-top: 10px;
+        width: 65px;
     }
     /*Info*/
     div.info-header h1 {
@@ -682,7 +680,8 @@ div.confirmation-footer img:nth-child(2){
 
     div.info-content1 div.info-text,
     div.info-content2 div.info-text,
-    div.info-content3 div.info-text{
+    div.info-content3 div.info-text,
+    div.info-content4 div.info-text{
         font-size: 18px;
     }
 }
@@ -690,8 +689,7 @@ div.confirmation-footer img:nth-child(2){
 
     /*Home*/
     div.home div.logos > img{
-        width: 180px;
-        margin-top: 10px;
+        width: 75px;
     }
 
     /*Tourtament*/
@@ -760,7 +758,8 @@ div.confirmation-footer img:nth-child(2){
     }
     div.info-content1 div.info-text,
     div.info-content2 div.info-text,
-    div.info-content3 div.info-text{
+    div.info-content3 div.info-text,
+    div.info-content4 div.info-text{
         font-size: 20px;
     }
 
@@ -788,8 +787,7 @@ div.confirmation-footer img:nth-child(2){
 
      /*Home*/
      div.home div.logos > img{
-        width: 220px;
-        margin-top: 10px;
+        width: 85px;
     }
 
     /*Menu*/
@@ -838,7 +836,8 @@ div.confirmation-footer img:nth-child(2){
     }
     div.info-content1 div.info-text,
     div.info-content2 div.info-text,
-    div.info-content3 div.info-text{
+    div.info-content3 div.info-text,
+    div.info-content4 div.info-text{
         font-size: 26px;
     }
     div.info-content4 div.info-text{
@@ -876,7 +875,7 @@ div.confirmation-footer img:nth-child(2){
 
     /*Home*/
     div.home div.logos > img{
-        width: 300px;
+        width: 110px;
     }
 
     /*Tourtament*/
@@ -935,7 +934,8 @@ div.confirmation-footer img:nth-child(2){
     }
     div.info-content1 div.info-text,
     div.info-content2 div.info-text,
-    div.info-content3 div.info-text{
+    div.info-content3 div.info-text,
+    div.info-content4 div.info-text{
         font-size: 34px;
     }
      div.info-content4 div.info-text{
@@ -964,7 +964,7 @@ div.confirmation-footer img:nth-child(2){
 @media only screen and (min-width:1200px){
     /*Home*/
     div.home div.logos > img{
-        width: 400px;
+        width: 150px;
     }
 
     /*Ceremony*/
@@ -998,7 +998,8 @@ div.confirmation-footer img:nth-child(2){
     }
     div.info-content1 div.info-text,
     div.info-content2 div.info-text,
-    div.info-content3 div.info-text{
+    div.info-content3 div.info-text,
+    div.info-content4 div.info-text{
         font-size: 46px;
     }
      div.info-content4 div.info-text{

@@ -688,6 +688,7 @@ div.terms div.terms-text {
 div.terms div.terms-text p{
     font-family: sixinch;
     font-size: 1em;
+    color: #707174;
 }
 /* Medias Querys */
 @media only screen and (min-width: 565px){

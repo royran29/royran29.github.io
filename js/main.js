@@ -2,6 +2,10 @@ $(function(){
   $('label span.menu, label ul').on('click', function(){
     $('label ul').toggleClass('no-display');
   });
+  $('#Accept').on('click', function(){
+    $('.submit-form').toggle(500);
+  
+  })
 });
 
 (function() {

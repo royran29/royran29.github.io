@@ -245,12 +245,12 @@ label ul {
     font-size: 1.3em;
     text-align: center;
 }
-label a {
+label ul a {
     margin-bottom: 1em;
-    display: block;
     color: #ffaf0d;
+    display: block;
     text-decoration: none;
-    font-family: footlongOffice;;
+    font-family: footlongOffice;
 }
 label ul li img{
     width: 50%;
@@ -449,6 +449,13 @@ div.form-group input:focus, div.form-group select:focus{
     border-color: transparent;
     outline: 0;
 }
+#Accept{
+    width: 20px;
+    height: 15px;
+}
+div.form-group #Accept + label, #Accept{
+    display: inline;
+}
 div.form-group select{
     background: url('../img/Formulario/land-05.png') no-repeat right #d2d3d4;
     -moz-appearance:none; /* Firefox */
@@ -476,6 +483,7 @@ div.end-form div.submit-form p{
     margin-top: 5px;
     font-size: 10px;
 }
+
 div.logo-coca{
     margin: 0 auto;
     width: 60%;

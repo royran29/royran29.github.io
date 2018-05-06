@@ -673,7 +673,22 @@ div.confirmation-footer img{
 div.confirmation-footer img:nth-child(2){
     float: right;
 }
+/*Terms and conditions*/
+div.terms h1{
+    margin: 0;
+    margin-left: 3%;
+    font-size: 1.3em;
+    padding: 20px;
+}
+div.terms div.terms-text {
+    width: 90%;
+    margin: 30px auto;
+}
 
+div.terms div.terms-text p{
+    font-family: sixinch;
+    font-size: 1em;
+}
 /* Medias Querys */
 @media only screen and (min-width: 565px){
 
@@ -682,7 +697,8 @@ div.confirmation-footer img:nth-child(2){
         width: 65px;
     }
     /*Info*/
-    div.info-header h1 {
+    div.info-header h1,
+    div.terms h1 {
         font-size: 2em;
     }
 
@@ -761,7 +777,8 @@ div.confirmation-footer img:nth-child(2){
     }
    
     /*Info*/
-    div.info-header h1 {
+    div.info-header h1,
+    div.terms h1 {
         font-size: 3em;
     }
     div.info-content1 div.info-text,
@@ -839,7 +856,8 @@ div.confirmation-footer img:nth-child(2){
         width: 160px;
     }
     /*Info*/
-    div.info-header h1 {
+    div.info-header h1,
+    div.terms h1 {
         font-size: 3.6em;
     }
     div.info-content1 div.info-text,
@@ -872,6 +890,11 @@ div.confirmation-footer img:nth-child(2){
     }
     div.images-center {
         width: 30%;
+    }
+
+    /*Terms*/
+    div.terms div.terms-text p{
+        font-size: 1.8em;
     }
 }
 
@@ -937,7 +960,8 @@ div.confirmation-footer img:nth-child(2){
     }
 
     /*Info*/
-    div.info-header h1 {
+    div.info-header h1,
+    div.terms h1 {
         font-size: 4.6em;
     }
     div.info-content1 div.info-text,
